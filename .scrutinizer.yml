@@ -65,3 +65,5 @@ tools:
    
 filter:
   excluded_paths: ['vendors/*','*/vendors/*','*/tests/*']
+
+build_failure_conditions: ['issues.new.exists']
