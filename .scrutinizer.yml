@@ -23,7 +23,7 @@ tools:
       controversial_rules:
         superglobals: false
   sensiolabs_security_checker: true
-  php_cpd: true
+  php_sim: true
   php_pdepend:
     excluded_dirs:
       - vendors
