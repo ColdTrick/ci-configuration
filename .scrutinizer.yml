@@ -1,7 +1,3 @@
-before_commands:
- - mkdir ../elgg-coding-standards
- - git clone https://github.com/ColdTrick/elgg-coding-standards.git ../elgg-coding-standards/
-
 tools:
   php_code_sniffer:
     enabled: true
@@ -9,7 +5,7 @@ tools:
     config:
         tab_width: 0
         encoding: utf8
-        ruleset: ../elgg-coding-standards/elgg.xml
+        ruleset: vendor/coldtrick/sniffs/elgg.xml
         standard: custom
         sniffs: []
     filter:
@@ -17,6 +13,8 @@ tools:
         - 'languages/*'
         - 'vendors/*'
         - '*/vendors/*'
+        - 'vendor/*'
+        - '*/vendor/*'
         - '*/tests/*'
   php_mess_detector:
     config:

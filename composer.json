@@ -1,0 +1,7 @@
+{
+	"name": "coldtrick/ci_configuration",
+	"description": "CI configuration",
+	"require": {
+		"coldtrick/sniffs": "dev-master"
+	}
+}
